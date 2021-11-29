@@ -367,7 +367,7 @@ export default {
      */
     removeImage() {
       this.imagePreview = null
-      this.$emit(false)
+      this.$emit('input', false)
     },
     /**
      * Get file from input
